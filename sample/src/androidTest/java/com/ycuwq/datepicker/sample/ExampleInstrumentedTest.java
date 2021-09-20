@@ -21,6 +21,8 @@ public class ExampleInstrumentedTest {
 		// Context of the app under test.
 		Context appContext = InstrumentationRegistry.getTargetContext();
 
-		assertEquals("com.ycuwq.datepicker.sample", appContext.getPackageName());
+
+//		assertEquals("com.ycuwq.datepicker", appContext.getPackageName());
+		assertEquals(1+1, 5);
 	}
 }
