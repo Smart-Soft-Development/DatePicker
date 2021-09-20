@@ -1,16 +1,8 @@
-![DatePicker](https://github.com/Tobaloidee/DatePicker/blob/master/logo/logotype.png)
-
-[![Download](https://api.bintray.com/packages/ycuwq/android/datepicker/images/download.svg)](https://bintray.com/ycuwq/android/datepicker/_latestVersion) [![MIT](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-
 Android date picker widget.
 
 ![screen](https://raw.githubusercontent.com/ycuwq/DatePicker/master/screenshots/device-2018-01-11-193707.gif)
 
-[Repo Wiki](https://github.com/ycuwq/DatePicker/wiki)
-
- [简体中文说明](./README-CN.md)
-
-## Import 
+## Import
 
 Add the dependency to your app modules:
 
