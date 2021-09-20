@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.mr-shoxruxbek.DatePicker'
@@ -29,15 +28,4 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-}
-
-publish {
-    userOrg = 'ycuwq'//
-    repoName = 'android'
-    groupId = 'com.ycuwq.widgets'
-    artifactId = 'datepicker'
-    publishVersion = libVersionName
-    desc = 'Android date picker widget'
-    website = 'https://github.com/ycuwq/DatePicker'
-    licences = ['MIT']
 }
