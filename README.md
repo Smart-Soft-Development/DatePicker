@@ -14,7 +14,7 @@ dependencies {
 
 ## Usage
 
-```
+``` kotlin
 <com.ycuwq.datepicker.date.DatePicker
     android:id="@+id/datePicker"
     android:layout_width="match_parent"
@@ -27,7 +27,7 @@ dependencies {
 
 `DatePickerDialogFragment`extends `DialogFragment` ，for example:
 
-```
+``` java
 DatePickerDialogFragment datePickerDialogFragment = new DatePickerDialogFragment();
 datePickerDialogFragment.setOnDateChooseListener(...);
 datePickerDialogFragment.show(getSupportFragmentManager(), "DatePickerDialogFragment");
@@ -35,7 +35,7 @@ datePickerDialogFragment.show(getSupportFragmentManager(), "DatePickerDialogFrag
 
 If you want to customize the style ，for example:：
 
-```
+``` java
 public class MyDatePickerDialogFragment extends DatePickerDialogFragment {
 
    @Override
